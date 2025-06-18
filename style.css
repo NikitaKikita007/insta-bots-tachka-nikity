@@ -288,6 +288,8 @@ background: linear-gradient(15deg, rgba(141, 85, 194, 1) 0%, rgba(255, 255, 255,
 
     margin-left: 40px;
     display: flex;
+   flex-direction: column;
+
 }
 .tekst1{
     width: 628px;
@@ -298,12 +300,14 @@ background: linear-gradient(15deg, rgba(141, 85, 194, 1) 0%, rgba(255, 255, 255,
 }
 .voprosBLOK1{
     margin-top: 20px;
-width: 1250px;
+max-width: 1250px;
 height: 56px;
 background-color:  #FFFFFF80;
 display: flex;
 padding-top: 20px;
 border-radius: 16px 16px 0px 0px;
+justify-content: space-between;
+padding-right: 20px;
 }
 .vopros{
     width: 628px;
@@ -313,77 +317,12 @@ border-radius: 16px 16px 0px 0px;
 .krestblok{
     width: 48px;
     height: 48px;
-    background:  #FFFFFF80;
-margin-left: 500px;
+    background-color: #ffeefd;
+
 border-radius: 25px;
 }
 
-.voprosBLOK2{
-    width: 1250px;
-height: 56px;
-background-color:  #FFFFFF80;
-display: flex;
-padding-top: 20px;
-border-radius: 16px 16px 0px 0px;
-margin-top: 20px;
-}
-.vopros2{
-    width: 628px;
-    height: 40px;
-    margin-left: 32px;
-}
-.plusblok{
-    width: 48px;
-    height: 48px;
-    background:  #FFFFFF80;
-margin-left: 500px;
-border-radius: 25px; 
-}
 
-.voprosBLOK3{
-   width: 1250px;
-height: 56px;
-background-color:  #FFFFFF80;
-display: flex;
-padding-top: 20px;
-border-radius: 16px 16px 0px 0px;
-margin-top: 20px;
-}
-.vopros3{
-     width: 628px;
-    height: 40px;
-    margin-left: 32px;
-}
-.plusblok2{
-     width: 48px;
-    height: 48px;
-    background:  #FFFFFF80;
-margin-left: 500px;
-border-radius: 25px;
-
-}
-.voprosBLOK4{
-     width: 1250px;
-height: 56px;
-background-color:  #FFFFFF80;
-display: flex;
-padding-top: 20px;
-border-radius: 16px 16px 0px 0px;
-margin-top: 20px;
-}
-.vopros4{
- width: 628px;
-    height: 40px;
-    margin-left: 32px;
-}
-.plusblok3{
-     width: 48px;
-    height: 48px;
-    background:  #FFFFFF80;
-margin-left: 500px;
-border-radius: 25px;
-
-}
 
 
 /* Connect */
